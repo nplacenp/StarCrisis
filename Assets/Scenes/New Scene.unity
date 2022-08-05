@@ -594,6 +594,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1996675992 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7736192373000537604, guid: 4f34289d960be9746b37116f52d395fd, type: 3}
+  m_PrefabInstance: {fileID: 7735590380146714669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1996675993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996675992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa86e74dba86364fb9c73962bed1378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlSpeedX: 60
+  controlSpeedY: 15
 --- !u!4 &4172661217969315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7733953193989155982, guid: 4f34289d960be9746b37116f52d395fd, type: 3}
@@ -766,5 +785,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Ship
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7735590380592210560, guid: 4f34289d960be9746b37116f52d395fd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4f34289d960be9746b37116f52d395fd, type: 3}
